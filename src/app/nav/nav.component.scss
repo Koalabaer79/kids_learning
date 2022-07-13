@@ -1,0 +1,20 @@
+.navCont {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	width: 100%;
+	border-top: 2px solid rgb(238, 192, 65);
+	border-bottom: 2px solid rgb(238, 192, 65);
+}
+
+.navItem {
+	padding: 10px 20px;
+	cursor: pointer;
+	font-family: "gruen";
+	font-size: 30px;
+	&:hover, &.activebutton {
+		background-color: rgb(238, 192, 65);
+	}
+}
