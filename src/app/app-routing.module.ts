@@ -3,6 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
 	{
+		path:'tastatur',
+		loadChildren: () => import('./tastatur/tastatur.module').then(m => m.TastaturModule)
+	},
+	{
 		path:'home',
 		loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
 	},

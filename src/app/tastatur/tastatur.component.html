@@ -1,0 +1,11 @@
+<h2>Lerne die Tastatur kennen</h2>
+
+<div class="tastatur">
+	<div *ngFor="let taste of tasten" class="taste" [attr.style]="taste.position">
+		<img [src]="taste.path" />
+		<div class="overImg" [id]="taste.name"></div>
+	</div>
+	<div class="full">
+		<img class="full" src="../../assets/tastatur/tastatur.png" />
+	</div>
+</div>

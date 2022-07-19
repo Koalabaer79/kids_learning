@@ -12,8 +12,10 @@
 .navItem {
 	padding: 10px 20px;
 	cursor: pointer;
-	font-family: "gruen";
-	font-size: 30px;
+	// font-family: "gruen";
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
 	&:hover, &.activebutton {
 		background-color: rgb(238, 192, 65);
 	}
